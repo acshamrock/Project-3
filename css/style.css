@@ -1,6 +1,41 @@
-body, ul, li, p {
+body {
   margin: 0;
   padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  font-family: 'YourImportedFont', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #0066cc;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
 }
 
 .navbar {
@@ -10,57 +45,4 @@ body, ul, li, p {
   font-family: Arial, sans-serif;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px 0;
-}
-
-.navbar ul {
-  list-style: none;
-}
-
-.navbar li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #0066cc;
-  transition: color 0.3s ease;
-}
-
-.navbar a:hover {
-  color: #ff7700;
-}
-
-h1 {
-  font-family: 'YourImportedFont', sans-serif;
-  font-weight: bold;
-  color: #0066cc;
-}
-
-p {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-}
-
-.button {
-  background: linear-gradient(45deg, #ff6a00, #ff006a);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-h2 {
-  font-family: 'YourOtherImportedFont', sans-serif;
-  font-weight: bold;
-  color: #ff7700;
-}
-
-.highlighted {
-  background-color: #f5f5f5;
-  padding: 10px;
-  border-radius: 5px;
 }
