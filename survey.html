@@ -2,25 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Survey</title>
+  <title>Movie Genre Survey</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <!-- Navbar -->
   <nav class="navbar">
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Resume</a></li>
       <li><a href="awesomewords.html">Cool Words</a></li>
       <li><a href="survey.html">Survey</a></li>
     </ul>
   </nav>
 
   <header>
-    <h1>Survey</h1>
+    <h1>Favorite Movie Genre Survey</h1>
   </header>
-
+  
   <section>
-    <h2>Take our Survey</h2>
-    <p>This is where you can create a survey for your visitors to fill out.</p>
+    <h2>Movie I like</h2>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/C0BMx-qxsP4?si=nDd-doIWRV9Uincl"></iframe>
+  </section>
+  
+  <section>
+    <h2>Survey Questions</h2>
+    <form>
+      <p>
+        <label for="favoriteGenre">Select your favorite movie genre:</label>
+        <select id="favoriteGenre" name="favoriteGenre">
+          <option value="Action">Action</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Horror">Horror</option>
+          <option value="Romance">Romance</option>
+          <option value="Other">Other</option>
+        </select>
+      </p>
+      <p>
+        <label for="reason">Why is this your favorite genre?</label>
+        <textarea id="reason" name="reason" rows="4" cols="50"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Submit">
+      </p>
+    </form>
+  </section>
+  
+  <section>
+    <h2>Posters</h2>
+    <img src="images/superbad.jpg" alt="Poster of Superbad">
+    <img src="images/avengers1.jpg" alt="Poster of the Avengers">
+    <img src="images/exorcist1.jpeg" alt="Poster of the Exorcist">
   </section>
 </body>
 </html>
