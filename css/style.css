@@ -1,5 +1,3 @@
-b/* Original CSS styles */
-
 body, ul, li, p {
   margin: 0;
   padding: 0;
@@ -36,11 +34,14 @@ body, ul, li, p {
 h1, h2 {
   font-family: 'YourImportedFont', sans-serif;
   font-weight: bold;
+  background-image: linear-gradient(135deg, #0066cc, #ff7700);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 h1 {
   font-size: 32px;
-  color: #333;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -62,10 +63,8 @@ img {
   height: 200px;
 }
 
-
-
 body {
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
 }
 
 .navbar {
@@ -73,11 +72,11 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #333; 
+  background-color: #333;
 }
 
 #container {
-  background-color: rgba(255, 255, 255, 0.9); 
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
